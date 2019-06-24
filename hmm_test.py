@@ -48,6 +48,18 @@ class TestHMM(unittest.TestCase):
     def test_user_d(self):
         print(test_user('test_data/user_d.txt', 'training/users_5000.csv'))
 
+    def test_user_a_50000(self):
+        print(test_user('test_data/user_a.txt', 'training/users_50000.csv'))
+
+    def test_user_b_50000(self):
+        print(test_user('test_data/user_b.txt', 'training/users_50000.csv'))
+
+    def test_user_c_50000(self):
+        print(test_user('test_data/user_c.txt', 'training/users_50000.csv'))
+
+    def test_user_d_50000(self):
+        print(test_user('test_data/user_d.txt', 'training/users_50000.csv'))
+
 
 if __name__ == '__main__':
     unittest.main()

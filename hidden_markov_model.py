@@ -131,12 +131,3 @@ class HiddenMarkovModel:
             prev_state = current
 
         return history
-
-
-
-
-
-
-
-
-
